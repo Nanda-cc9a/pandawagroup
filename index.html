@@ -1,0 +1,961 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PT Pandawa Mitra Indonesia | P3MI Profesional & Terpercaya</title>
+    <meta
+      name="description"
+      content="PT Pandawa Mitra Indonesia adalah Perusahaan Penempatan Pekerja Migran Indonesia (P3MI) yang bergerak di bidang rekrutmen, pelatihan, dan penempatan tenaga kerja Indonesia ke berbagai negara tujuan."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/jpeg" href="assets/logo.jpg" />
+  </head>
+  <body>
+    <!-- ═══════════════════ NAVBAR ═══════════════════ -->
+    <header class="navbar" id="navbar">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo">
+          <div class="logo-mark">
+            <img src="assets/logo.jpg" alt="Logo Pandawa Mitra Indonesia" />
+          </div>
+          <div class="logo-text">
+            <span class="logo-main">PANDAWA MITRA</span>
+            <span class="logo-sub">INDONESIA</span>
+          </div>
+        </a>
+        <nav class="nav-links">
+          <a href="#tentang">Tentang</a>
+          <a href="#layanan">Layanan</a>
+          <a href="#proses">Proses</a>
+          <a href="#organisasi">Struktur</a>
+          <a href="#kontak">Kontak</a>
+        </nav>
+        <button
+          class="nav-cta"
+          onclick="
+            document
+              .getElementById('kontak')
+              .scrollIntoView({ behavior: 'smooth' })
+          "
+        >
+          Hubungi Kami
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#tentang" class="mobile-link">Tentang</a>
+        <a href="#layanan" class="mobile-link">Layanan</a>
+        <a href="#proses" class="mobile-link">Proses</a>
+        <a href="#organisasi" class="mobile-link">Struktur</a>
+        <a href="#kontak" class="mobile-link">Kontak</a>
+      </div>
+    </header>
+
+    <!-- ═══════════════════ HERO ═══════════════════ -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-pattern"></div>
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="dot"></span>
+          <span>Perusahaan Penempatan Pekerja Migran Indonesia</span>
+          <span class="dot"></span>
+        </div>
+        <h1 class="hero-title">
+          <span class="line-wrap"
+            ><span class="animate-line">Jembatan Menuju</span></span
+          >
+          <span class="line-wrap"
+            ><em><span class="animate-line">Karir Global</span></em></span
+          >
+          <span class="line-wrap"
+            ><span class="animate-line">Bermartabat</span></span
+          >
+        </h1>
+        <p class="hero-desc animate-fade">
+          <strong>PT Pandawa Mitra Indonesia</strong> bergerak di bidang P3MI
+          yang mengurusi
+          <strong>persiapan, pemberangkatan, dan pengkondisian</strong> selama
+          pekerja migran bekerja di luar negeri — secara
+          <strong>legal, profesional, dan transparan</strong>.
+        </p>
+        <div class="hero-actions animate-fade">
+          <a href="#layanan" class="btn-primary">Layanan Kami</a>
+          <a href="#proses" class="btn-ghost">Lihat Proses</a>
+        </div>
+        <div class="hero-stats animate-fade">
+          <div class="stat">
+            <span class="stat-num" data-target="2026">2026</span>
+            <span class="stat-label">Tahun Berdiri</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">P3MI</span>
+            <span class="stat-label">Terdaftar Resmi</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">Legal</span>
+            <span class="stat-label">Berlisensi KP2MI</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card-stack">
+          <div class="hero-card card-1">
+            <div class="card-icon">🌏</div>
+            <div>
+              <div class="card-title">Penempatan Global</div>
+              <div class="card-sub">Berbagai negara tujuan</div>
+            </div>
+          </div>
+          <div class="hero-card card-2">
+            <div class="card-icon">🛡️</div>
+            <div>
+              <div class="card-title">Perlindungan Penuh</div>
+              <div class="card-sub">Sebelum, selama & setelah bekerja</div>
+            </div>
+          </div>
+          <div class="hero-card card-3">
+            <div class="card-icon">📋</div>
+            <div>
+              <div class="card-title">100% Legal</div>
+              <div class="card-sub">Sesuai peraturan perundang-undangan</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-circle-bg"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ TENTANG ═══════════════════ -->
+    <section class="tentang" id="tentang">
+      <div class="container">
+        <div class="tentang-grid">
+          <div class="tentang-left reveal">
+            <div class="section-tag">Tentang Kami</div>
+            <h2 class="section-title">
+              Siapa PT Pandawa<br />Mitra Indonesia?
+            </h2>
+            <p class="tentang-body">
+              PT Pandawa Mitra Indonesia adalah
+              <strong
+                >Perusahaan Penempatan Pekerja Migran Indonesia (P3MI)</strong
+              >
+              yang bergerak di bidang P3MI — mengurusi
+              <strong>persiapan, pemberangkatan, dan pengkondisian</strong>
+              selama pekerja migran bekerja di luar negeri.
+            </p>
+            <p class="tentang-body">
+              Perusahaan berkomitmen menyelenggarakan penempatan PMI secara
+              legal, profesional, transparan, dan berorientasi pada perlindungan
+              hak serta kesejahteraan PMI. Dalam setiap langkah operasional,
+              kami senantiasa mematuhi ketentuan peraturan perundang-undangan
+              yang berlaku di Indonesia serta ketentuan ketenagakerjaan di
+              negara tujuan penempatan.
+            </p>
+            <div class="tentang-highlights">
+              <div class="highlight-item">
+                <div class="hi-icon">✓</div>
+                <span>Rekrutmen transparan & legal</span>
+              </div>
+              <div class="highlight-item">
+                <div class="hi-icon">✓</div>
+                <span>Pelatihan berbasis kompetensi</span>
+              </div>
+              <div class="highlight-item">
+                <div class="hi-icon">✓</div>
+                <span>Pendampingan purna penempatan</span>
+              </div>
+              <div class="highlight-item">
+                <div class="hi-icon">✓</div>
+                <span>Jaringan mitra luar negeri luas</span>
+              </div>
+            </div>
+          </div>
+          <div class="tentang-right reveal">
+            <div class="visi-misi-card">
+              <div class="vm-section">
+                <div class="vm-icon">👁&#xFE0E;</div>
+                <h3 class="vm-title">Visi</h3>
+                <p class="vm-text">
+                  Menjadi Perusahaan Penempatan Pekerja Migran Indonesia yang
+                  <em>profesional, terpercaya, dan berdaya saing global</em>
+                  dalam menyediakan tenaga kerja migran yang kompeten,
+                  terlindungi, serta bermartabat.
+                </p>
+              </div>
+              <div class="vm-divider"></div>
+              <div class="vm-section">
+                <div class="vm-icon">🎯</div>
+                <h3 class="vm-title">Misi</h3>
+                <ol class="misi-list">
+                  <li>
+                    Menyelenggarakan proses rekrutmen, pelatihan, dan penempatan
+                    PMI secara legal, transparan, dan sesuai peraturan
+                    perundang-undangan.
+                  </li>
+                  <li>
+                    Menyiapkan PMI yang kompeten melalui peningkatan
+                    keterampilan, bahasa, dan pemahaman budaya kerja
+                    internasional.
+                  </li>
+                  <li>
+                    Memberikan pelindungan, pendampingan, dan pengawasan
+                    terhadap PMI sebelum, selama, dan setelah masa kerja.
+                  </li>
+                  <li>
+                    Menjalin kemitraan strategis dengan pengguna, lembaga
+                    pelatihan, dan instansi terkait dalam dan luar negeri.
+                  </li>
+                  <li>
+                    Berkontribusi dalam peningkatan kesejahteraan PMI dan
+                    keluarganya serta pembangunan nasional.
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ LAYANAN ═══════════════════ -->
+    <section class="layanan" id="layanan">
+      <div class="layanan-bg-accent"></div>
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag light">Layanan Utama</div>
+          <h2 class="section-title light">Apa yang Kami<br />Tawarkan?</h2>
+          <p class="section-desc light">
+            Rangkaian layanan lengkap dari rekrutmen hingga purna penempatan,<br />
+            dirancang untuk memastikan PMI berangkat dengan aman dan
+            bermartabat.
+          </p>
+        </div>
+        <div class="layanan-grid">
+          <div class="layanan-card reveal" style="--i: 0">
+            <div class="lc-num">01</div>
+            <div class="lc-icon">
+              <svg viewBox="0 0 48 48" fill="none">
+                <circle
+                  cx="24"
+                  cy="16"
+                  r="8"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M8 40c0-8.837 7.163-16 16-16s16 7.163 16 16"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3>Rekrutmen & Seleksi</h3>
+            <p>
+              Penjaringan calon PMI berkualitas melalui seleksi ketat,
+              wawancara, verifikasi administrasi, dan pemeriksaan kesehatan
+              (MCU).
+            </p>
+            <ul class="lc-list">
+              <li>Sosialisasi ke masyarakat & desa</li>
+              <li>Seleksi administrasi & wawancara</li>
+              <li>Verifikasi dokumen calon PMI</li>
+              <li>Database calon PMI terkelola</li>
+            </ul>
+          </div>
+          <div class="layanan-card reveal" style="--i: 1">
+            <div class="lc-num">02</div>
+            <div class="lc-icon">
+              <svg viewBox="0 0 48 48" fill="none">
+                <rect
+                  x="8"
+                  y="8"
+                  width="32"
+                  height="32"
+                  rx="4"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M16 24h16M16 32h10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M16 16h6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3>Pengurusan Dokumen</h3>
+            <p>
+              Pengelolaan seluruh dokumen penempatan secara lengkap, akurat, dan
+              tepat waktu sesuai ketentuan negara tujuan.
+            </p>
+            <ul class="lc-list">
+              <li>KTP, KK, Akta Kelahiran, Paspor</li>
+              <li>Visa kerja & kontrak kerja</li>
+              <li>Asuransi & dokumen lainnya</li>
+              <li>Filling & arsip dokumen digital</li>
+            </ul>
+          </div>
+          <div class="layanan-card reveal featured-card" style="--i: 2">
+            <div class="lc-badge">Unggulan</div>
+            <div class="lc-num">03</div>
+            <div class="lc-icon">
+              <svg viewBox="0 0 48 48" fill="none">
+                <path
+                  d="M24 4L6 14v10c0 10 7.5 19.3 18 22 10.5-2.7 18-12 18-22V14L24 4z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M17 24l5 5 9-9"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Pendidikan & Pelatihan</h3>
+            <p>
+              Program diklat komprehensif untuk mempersiapkan PMI yang
+              benar-benar siap menghadapi dunia kerja internasional.
+            </p>
+            <ul class="lc-list">
+              <li>Bahasa & budaya kerja negara tujuan</li>
+              <li>Keterampilan teknis sesuai bidang</li>
+              <li>Keselamatan & Kesehatan Kerja (K3)</li>
+              <li>Pembekalan hak & kewajiban PMI</li>
+            </ul>
+          </div>
+          <div class="layanan-card reveal" style="--i: 3">
+            <div class="lc-num">04</div>
+            <div class="lc-icon">
+              <svg viewBox="0 0 48 48" fill="none">
+                <circle
+                  cx="24"
+                  cy="24"
+                  r="16"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M12 24h6M30 24h6M24 12v6M24 30v6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3>Marketing Luar Negeri</h3>
+            <p>
+              Menjalin dan mengelola kemitraan strategis dengan pengguna, agen,
+              dan perusahaan di negara tujuan penempatan PMI.
+            </p>
+            <ul class="lc-list">
+              <li>Pencarian & verifikasi job order</li>
+              <li>Negosiasi perjanjian kerja sama</li>
+              <li>Monitoring mitra aktif luar negeri</li>
+              <li>Kepatuhan regulasi negara tujuan</li>
+            </ul>
+          </div>
+          <div class="layanan-card reveal" style="--i: 4">
+            <div class="lc-num">05</div>
+            <div class="lc-icon">
+              <svg viewBox="0 0 48 48" fill="none">
+                <path
+                  d="M24 4l5 10 11 1.5-8 7.8 1.9 11L24 29l-9.9 5.3L16 23.3 8 15.5 19 14z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Satisfaction & Purna</h3>
+            <p>
+              Pendampingan dan monitoring kepuasan PMI selama masa penempatan
+              hingga proses pemulangan ke tanah air.
+            </p>
+            <ul class="lc-list">
+              <li>Monitoring kondisi PMI berkala</li>
+              <li>Penanganan keluhan & pengaduan</li>
+              <li>Koordinasi pemulangan PMI</li>
+              <li>Resosialisasi pasca penempatan</li>
+            </ul>
+          </div>
+          <div class="layanan-card reveal" style="--i: 5">
+            <div class="lc-num">06</div>
+            <div class="lc-icon">
+              <svg viewBox="0 0 48 48" fill="none">
+                <rect
+                  x="8"
+                  y="16"
+                  width="32"
+                  height="24"
+                  rx="3"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M16 16V12a8 8 0 0116 0v4"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <circle
+                  cx="24"
+                  cy="28"
+                  r="3"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <h3>Kepatuhan & Legal</h3>
+            <p>
+              Memastikan seluruh proses penempatan berjalan sesuai regulasi
+              KP2MI dan peraturan perundang-undangan yang berlaku.
+            </p>
+            <ul class="lc-list">
+              <li>Kepatuhan hukum penempatan</li>
+              <li>Penyusunan & review kontrak kerja</li>
+              <li>Koordinasi dengan BP2MI/KP2MI</li>
+              <li>Audit kepatuhan berkala</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ PROSES ═══════════════════ -->
+    <section class="proses" id="proses">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">Alur Kerja</div>
+          <h2 class="section-title">Proses Penempatan PMI</h2>
+          <p class="section-desc">
+            Dari job order hingga keberangkatan, setiap langkah dirancang untuk
+            memastikan keamanan dan legalitas penuh.
+          </p>
+        </div>
+        <div class="proses-flow reveal">
+          <div class="flow-step">
+            <div class="fs-bubble">
+              <div class="fs-num">1</div>
+            </div>
+            <div class="fs-connector"></div>
+            <div class="fs-content">
+              <h4>Job Order</h4>
+              <p>
+                Marketing LN menerima & memverifikasi job order dari mitra luar
+                negeri
+              </p>
+            </div>
+          </div>
+          <div class="flow-step">
+            <div class="fs-bubble">
+              <div class="fs-num">2</div>
+            </div>
+            <div class="fs-connector"></div>
+            <div class="fs-content">
+              <h4>Rekrutmen</h4>
+              <p>
+                Sosialisasi, penjaringan, dan pendaftaran calon PMI oleh tim
+                Marketing DN
+              </p>
+            </div>
+          </div>
+          <div class="flow-step">
+            <div class="fs-bubble">
+              <div class="fs-num">3</div>
+            </div>
+            <div class="fs-connector"></div>
+            <div class="fs-content">
+              <h4>Seleksi User</h4>
+              <p>
+                Wawancara, tes, dan pemeriksaan kesehatan (MCU) sesuai
+                kualifikasi pengguna
+              </p>
+            </div>
+          </div>
+          <div class="flow-step">
+            <div class="fs-bubble">
+              <div class="fs-num">4</div>
+            </div>
+            <div class="fs-connector"></div>
+            <div class="fs-content">
+              <h4>Dokumen PMI</h4>
+              <p>
+                Pengurusan seluruh dokumen legal dan administrasi yang
+                diperlukan untuk penempatan
+              </p>
+            </div>
+          </div>
+          <div class="flow-step">
+            <div class="fs-bubble">
+              <div class="fs-num">5</div>
+            </div>
+            <div class="fs-connector"></div>
+            <div class="fs-content">
+              <h4>Diklat & PAP</h4>
+              <p>
+                Pendidikan & pelatihan bahasa, keterampilan, K3, serta
+                pembekalan akhir pemberangkatan
+              </p>
+            </div>
+          </div>
+          <div class="flow-step last">
+            <div class="fs-bubble final">
+              <div class="fs-num">✓</div>
+            </div>
+            <div class="fs-content">
+              <h4>Penempatan PMI</h4>
+              <p>
+                Keberangkatan resmi, penerimaan oleh mitra/pengguna, dan
+                monitoring satisfaction
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ STRUKTUR ORGANISASI ═══════════════════ -->
+    <section class="organisasi" id="organisasi">
+      <div class="org-bg"></div>
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag light">Tim Kami</div>
+          <h2 class="section-title light">Struktur Organisasi</h2>
+          <p class="section-desc light">
+            Dipimpin oleh para profesional berpengalaman di bidang penempatan
+            tenaga kerja migran.
+          </p>
+        </div>
+
+        <div class="org-levels">
+          <!-- Komisaris -->
+          <div class="org-level reveal">
+            <div class="org-level-label">Dewan Komisaris</div>
+            <div class="org-cards komisaris">
+              <div class="org-card">
+                <div class="oc-avatar">ARH</div>
+                <div class="oc-name">Arif Rahman Hakim</div>
+                <div class="oc-role">Komisaris Utama</div>
+              </div>
+              <div class="org-card">
+                <div class="oc-avatar">AM</div>
+                <div class="oc-name">Abadi Munir</div>
+                <div class="oc-role">Komisaris</div>
+              </div>
+              <div class="org-card">
+                <div class="oc-avatar">ESP</div>
+                <div class="oc-name">Eko Setyo Putro</div>
+                <div class="oc-role">Komisaris</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="org-connector-v"></div>
+
+          <!-- Direksi -->
+          <div class="org-level reveal">
+            <div class="org-level-label">Dewan Direksi</div>
+            <div class="org-cards direksi">
+              <div class="org-card highlight-card">
+                <div class="oc-avatar gold">TIS</div>
+                <div class="oc-name">Tri Imam Setyawan</div>
+                <div class="oc-role">Direktur Utama</div>
+              </div>
+              <div class="org-card highlight-card">
+                <div class="oc-avatar gold">TAP</div>
+                <div class="oc-name">Tri Agung Purnomo</div>
+                <div class="oc-role">Direktur</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="org-connector-v"></div>
+
+          <!-- Divisi -->
+          <div class="org-level reveal">
+            <div class="org-level-label">Kepala Divisi</div>
+            <div class="org-cards divisi">
+              <div class="org-card divisi-card">
+                <div class="oc-div-tag">Div. Dalam Negeri</div>
+                <div class="oc-avatar sm">ESP</div>
+                <div class="oc-name">Eko Setyo Putro</div>
+                <div class="oc-role">Div. Head DN (pjs.)</div>
+              </div>
+              <div class="org-card divisi-card">
+                <div class="oc-div-tag">Div. Luar Negeri</div>
+                <div class="oc-avatar sm">AM</div>
+                <div class="oc-name">Abadi Munir</div>
+                <div class="oc-role">Div. Head LN (pjs.)</div>
+              </div>
+              <div class="org-card divisi-card">
+                <div class="oc-div-tag">Div. F &amp; A</div>
+                <div class="oc-avatar sm">ARH</div>
+                <div class="oc-name">Arif Rahman H.</div>
+                <div class="oc-role">Div. F &amp; A (pjs.)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RACI Table -->
+        <div class="raci-section reveal">
+          <h3 class="raci-title">Pembagian Peran & Tanggung Jawab (RACI)</h3>
+          <div class="raci-table-wrap">
+            <table class="raci-table">
+              <thead>
+                <tr>
+                  <th>Kegiatan</th>
+                  <th>Komisaris</th>
+                  <th>Dirut</th>
+                  <th>Direktur</th>
+                  <th>Div. DN</th>
+                  <th>Div. LN</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Kebijakan Strategis</td>
+                  <td><span class="badge c">C</span></td>
+                  <td><span class="badge a">A</span></td>
+                  <td><span class="badge r">R</span></td>
+                  <td><span class="badge i">I</span></td>
+                  <td><span class="badge i">I</span></td>
+                </tr>
+                <tr>
+                  <td>Rekrutmen PMI</td>
+                  <td><span class="badge i">I</span></td>
+                  <td><span class="badge a">A</span></td>
+                  <td><span class="badge r">R</span></td>
+                  <td><span class="badge r">R</span></td>
+                  <td><span class="badge i">I</span></td>
+                </tr>
+                <tr>
+                  <td>Pelatihan PMI</td>
+                  <td><span class="badge i">I</span></td>
+                  <td><span class="badge a">A</span></td>
+                  <td><span class="badge r">R</span></td>
+                  <td><span class="badge r">R</span></td>
+                  <td><span class="badge i">I</span></td>
+                </tr>
+                <tr>
+                  <td>Penempatan PMI</td>
+                  <td><span class="badge i">I</span></td>
+                  <td><span class="badge a">A</span></td>
+                  <td><span class="badge r">R</span></td>
+                  <td><span class="badge c">C</span></td>
+                  <td><span class="badge r">R</span></td>
+                </tr>
+                <tr>
+                  <td>Pelindungan PMI</td>
+                  <td><span class="badge i">I</span></td>
+                  <td><span class="badge a">A</span></td>
+                  <td><span class="badge r">R</span></td>
+                  <td><span class="badge c">C</span></td>
+                  <td><span class="badge r">R</span></td>
+                </tr>
+                <tr>
+                  <td>Penanganan Pengaduan</td>
+                  <td><span class="badge i">I</span></td>
+                  <td><span class="badge a">A</span></td>
+                  <td><span class="badge r">R</span></td>
+                  <td><span class="badge c">C</span></td>
+                  <td><span class="badge r">R</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="raci-legend">
+            <span><span class="badge r">R</span> Mengerjakan</span>
+            <span><span class="badge a">A</span> Bertanggung jawab</span>
+            <span><span class="badge c">C</span> Memberi masukan</span>
+            <span><span class="badge i">I</span> Mengetahui</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ MENGAPA KAMI ═══════════════════ -->
+    <section class="mengapa">
+      <div class="container">
+        <div class="mengapa-grid">
+          <div class="mengapa-left reveal">
+            <div class="section-tag">Keunggulan Kami</div>
+            <h2 class="section-title">Mengapa Memilih<br />Pandawa Mitra?</h2>
+            <p>
+              Kami bukan hanya agen penempatan biasa. Kami adalah mitra
+              perjalanan Anda menuju karir internasional yang aman, legal, dan
+              bermartabat.
+            </p>
+            <a href="#kontak" class="btn-primary mt-2">Konsultasi Gratis</a>
+          </div>
+          <div class="mengapa-right">
+            <div class="keunggulan-item reveal">
+              <div class="ki-icon">🏛️</div>
+              <div>
+                <h4>Legalitas Terjamin</h4>
+                <p>
+                  Terdaftar dan beroperasi sesuai regulasi KP2MI. Seluruh proses
+                  dilakukan secara resmi dan transparan.
+                </p>
+              </div>
+            </div>
+            <div class="keunggulan-item reveal">
+              <div class="ki-icon">🎓</div>
+              <div>
+                <h4>Pelatihan Terstandar</h4>
+                <p>
+                  Program diklat berbasis kompetensi meliputi bahasa, budaya,
+                  keterampilan teknis, dan K3 sesuai negara tujuan.
+                </p>
+              </div>
+            </div>
+            <div class="keunggulan-item reveal">
+              <div class="ki-icon">🤝</div>
+              <div>
+                <h4>Kemitraan Kuat</h4>
+                <p>
+                  Jaringan mitra pengguna di berbagai negara yang telah
+                  terverifikasi legalitas dan komitmennya terhadap PMI.
+                </p>
+              </div>
+            </div>
+            <div class="keunggulan-item reveal">
+              <div class="ki-icon">💬</div>
+              <div>
+                <h4>Pendampingan Penuh</h4>
+                <p>
+                  Tim Satisfaction kami siap memantau kondisi PMI dan menangani
+                  setiap keluhan secara cepat dan profesional.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ KONTAK ═══════════════════ -->
+    <section class="kontak" id="kontak">
+      <div class="kontak-bg"></div>
+      <div class="container">
+        <div class="kontak-inner">
+          <div class="kontak-left reveal">
+            <div class="section-tag light">Hubungi Kami</div>
+            <h2 class="section-title light">
+              Siap Memulai<br />Perjalanan Anda?
+            </h2>
+            <p class="kontak-desc">
+              Konsultasikan kebutuhan Anda dengan tim profesional kami. Kami
+              siap membantu Anda memahami seluruh proses penempatan PMI.
+            </p>
+            <div class="kontak-info">
+              <div class="ki-item">
+                <div class="ki-icon-sm">📍</div>
+                <div>
+                  <div class="ki-label">Alamat Kantor</div>
+                  <div class="ki-val">
+                    PT. Pandawa Mitra Indonesia<br />Mawar Raya No. 38,
+                    Sendangmulyo,<br />Tembalang, Semarang, Jawa Tengah 50272
+                  </div>
+                </div>
+              </div>
+              <div class="ki-item">
+                <div class="ki-icon-sm">📞</div>
+                <div>
+                  <div class="ki-label">Telepon / WhatsApp</div>
+                  <div class="ki-val">
+                    <a
+                      href="https://wa.me/6285200608802"
+                      target="_blank"
+                      class="kontak-link"
+                      >085200608802</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="ki-item">
+                <div class="ki-icon-sm">📧</div>
+                <div>
+                  <div class="ki-label">Email</div>
+                  <div class="ki-val">
+                    <a href="mailto:pandawa5.pmi@gmail.com" class="kontak-link"
+                      >pandawa5.pmi@gmail.com</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="ki-item">
+                <div class="ki-icon-sm">📄</div>
+                <div>
+                  <div class="ki-label">Nomor Dokumen</div>
+                  <div class="ki-val">DOK.P3MI.PTPANDAWA.01.2026BD</div>
+                </div>
+              </div>
+              <div class="ki-item">
+                <div class="ki-icon-sm">⚖️</div>
+                <div>
+                  <div class="ki-label">Status Legal</div>
+                  <div class="ki-val">P3MI Terdaftar — KP2MI RI</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kontak-right reveal">
+            <form class="kontak-form" id="contactForm">
+              <h3 class="form-title">Kirim Pesan</h3>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Nama Lengkap *</label>
+                  <input type="text" placeholder="Nama Anda" required />
+                </div>
+                <div class="form-group">
+                  <label>Nomor HP / WhatsApp *</label>
+                  <input type="tel" placeholder="08xxxxxxxxxx" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" placeholder="email@anda.com" />
+              </div>
+              <div class="form-group">
+                <label>Keperluan *</label>
+                <select required>
+                  <option value="" disabled selected>Pilih keperluan</option>
+                  <option>Informasi Rekrutmen PMI</option>
+                  <option>Informasi Program Pelatihan</option>
+                  <option>Kerja Sama Mitra Luar Negeri</option>
+                  <option>Informasi Layanan Lainnya</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Pesan</label>
+                <textarea
+                  rows="4"
+                  placeholder="Tuliskan pertanyaan atau pesan Anda..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-submit">Kirim Pesan →</button>
+              <p class="form-note">
+                * Wajib diisi. Kami akan merespons dalam 1×24 jam kerja.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ FOOTER ═══════════════════ -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <div class="logo-mark sm">
+                <img src="assets/logo.jpg" alt="Logo Pandawa Mitra Indonesia" />
+              </div>
+              <div class="logo-text">
+                <span class="logo-main">PANDAWA MITRA</span>
+                <span class="logo-sub">INDONESIA</span>
+              </div>
+            </div>
+            <p class="footer-tagline">
+              Menjadi jembatan tenaga kerja Indonesia menuju dunia, secara
+              legal, profesional, dan bermartabat.
+            </p>
+            <div class="footer-contact-info">
+              <p>
+                📍 Mawar Raya No. 38, Sendangmulyo, Tembalang, Semarang, Jawa
+                Tengah 50272
+              </p>
+              <p>
+                📞
+                <a href="https://wa.me/6285200608802" target="_blank"
+                  >085200608802</a
+                >
+              </p>
+              <p>
+                📧
+                <a href="mailto:pandawa5.pmi@gmail.com"
+                  >pandawa5.pmi@gmail.com</a
+                >
+              </p>
+            </div>
+            <a
+              href="https://www.pandawamitaindonesia.co.id"
+              target="_blank"
+              class="footer-website"
+            ></a>
+            <div class="footer-doc">DOK.P3MI.PTPANDAWA.01.2026BD</div>
+          </div>
+          <div class="footer-col">
+            <h4>Layanan</h4>
+            <ul>
+              <li><a href="#layanan">Rekrutmen & Seleksi</a></li>
+              <li><a href="#layanan">Pengurusan Dokumen</a></li>
+              <li><a href="#layanan">Pendidikan & Pelatihan</a></li>
+              <li><a href="#layanan">Marketing Luar Negeri</a></li>
+              <li><a href="#layanan">Satisfaction & Purna</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Navigasi</h4>
+            <ul>
+              <li><a href="#tentang">Tentang Kami</a></li>
+              <li><a href="#tentang">Visi & Misi</a></li>
+              <li><a href="#proses">Alur Proses</a></li>
+              <li><a href="#organisasi">Struktur Organisasi</a></li>
+              <li><a href="#kontak">Kontak</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">P3MI Terdaftar</a></li>
+              <li><a href="#">Kepatuhan KP2MI</a></li>
+              <li><a href="#">Perlindungan PMI</a></li>
+              <li><a href="#">Kebijakan Privasi</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span
+            >© 2026 PT Pandawa Mitra Indonesia. Seluruh hak dilindungi
+            undang-undang.</span
+          >
+          <span>P3MI Legal & Berlisensi</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+      <span class="toast-icon">✓</span>
+      <span class="toast-msg"
+        >Pesan berhasil dikirim! Kami akan menghubungi Anda segera.</span
+      >
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
