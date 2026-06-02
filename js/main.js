@@ -266,5 +266,18 @@ yearEls.forEach(el => {
   el.innerHTML = text.replace('2026', new Date().getFullYear());
 });
 
+// ─── Floating Social Bar ───
+const floatingSocials = document.getElementById('floatingSocials');
+if (floatingSocials) {
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      floatingSocials.classList.add('visible');
+    } else {
+      floatingSocials.classList.remove('visible');
+    }
+  }, { passive: true });
+}
+
 console.log('%cPT Pandawa Mitra Indonesia', 'color: #c8a84b; font-size: 18px; font-weight: bold;');
 console.log('%cP3MI — Legal · Profesional · Bermartabat', 'color: #5a6480; font-size: 12px;');
+
